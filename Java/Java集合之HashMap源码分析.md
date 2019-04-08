@@ -25,7 +25,7 @@ HashMap 实现了Serializable接口，可以被序列化。
 2. 链地址法
 
 HashMap 采用的是链地址法，也就是同一hash值的元素都存储在一个链表里（jdk 1.7）。 
-![这里写图片描述](https://img-blog.csdn.net/20171024231520599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDYzNDMzOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20190408201151.png](https://raw.githubusercontent.com/zhouganglin/notes/master/img/20190408201151.png)
 
 在jdk 1.8 中 HashMap是数组+链表+红黑树实现的。 
 ![这里写图片描述](https://img-blog.csdn.net/20171024231757855?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxNDYzNDMzOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
